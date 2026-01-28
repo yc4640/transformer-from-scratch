@@ -122,7 +122,10 @@ Expansion ratio: $d_{ff} / d_{model} = 2$
 ### Loss Function
 Cross-entropy loss for next-token prediction:
 
-$$\mathcal{L} = -\frac{1}{T}\sum_{t=1}^{T}\log P(x_t | x_{<t})$$
+$$
+\mathcal{L} = -\frac{1}{T}\sum_{t=1}^{T}\log P(x_t \mid x_{\lt t})
+$$
+
 
 ## Results
 
