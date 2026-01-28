@@ -113,7 +113,7 @@ Expansion ratio: $d_{ff} / d_{model} = 2$
 - **Split**: 80% train (358K sequences) / 20% validation (89K sequences)
 
 ### Optimization
-- **Optimizer**: AdamW ($\beta_1=0.9$, $\beta_2=0.999$, weight decay=$0.01$)
+- **Optimizer**: AdamW ($\beta_1=0.9,\ \beta_2=0.999,\ \text{weight decay}=0.01$)
 - **Learning Rate**: $3 \times 10^{-4}$
 - **Gradient Clipping**: Max norm = 1.0
 - **Batch Size**: 64
