@@ -120,7 +120,10 @@ $$\text{FFN}(x) = W_2 \cdot \text{GELU}(W_1 \cdot x + b_1) + b_2$$
 ### 损失函数
 下一个 token 预测的交叉熵损失：
 
-$$\mathcal{L} = -\frac{1}{T}\sum_{t=1}^{T}\log P(x_t | x_{<t})$$
+$$
+\mathcal{L} = -\frac{1}{T}\sum_{t=1}^{T}\log P(x_t \mid x_{\lt t})
+$$
+
 
 ## 实验结果
 
