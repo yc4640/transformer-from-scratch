@@ -131,9 +131,9 @@ $$
 
 | Metric | Value |
 |--------|-------|
-| Final Training Loss | ~2.8 |
-| Final Validation Loss | ~3.0 |
-| Validation Perplexity | ~20 |
+| Final Training Loss | ~3.5 |
+| Final Validation Loss | ~4.1 |
+| Validation Perplexity | ~60 |
 
 ## Project Structure
 
